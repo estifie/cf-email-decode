@@ -1,6 +1,6 @@
 {
 	"name": "cf-email-decoder",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "A module to deobfuscate email addresses encoded with Cloudflare's Email Address Obfuscation Technique, restoring them to human-readable format",
 	"main": "index.js",
 	"types": "index.d.ts",
