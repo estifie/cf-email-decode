@@ -1,19 +1,30 @@
 {
 	"name": "cf-email-decoder",
 	"version": "0.0.1",
-	"description": "TBD",
+	"description": "A module to deobfuscate email addresses encoded with Cloudflare's Email Address Obfuscation Technique, restoring them to human-readable format",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/axelnt/cf-email-decoder.git"
+	},
 	"keywords": [
-		"cloudflare",
 		"email",
-		"decoder",
-		"cf",
-		"beautify"
+		"cloudflare",
+		"deobfuscate",
+		"obfuscate",
+		"decode",
+		"encode"
 	],
 	"author": "axelnt",
 	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/axelnt/cf-email-decoder/issues"
+	},
+	"homepage": "https://github.com/axelnt/cf-email-decoder#readme",
 	"devDependencies": {
-		"jest": "^29.7.0"
+		"jest": "*"
 	}
 }
