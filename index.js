@@ -8,9 +8,12 @@
 function decode(encodedString) {
 	let email = "";
 	const key = extractKey(encodedString);
-	for (let i = 2; i < encodedString.length; i += 2) {
-		email += String.fromCharCode(parseInt(encodedString.substr(i, 2), 16) ^ key);
-	}
+	email = encodedString
+		.substring(2)
+		.match(/.{2}/g)
+		.map((char) => String.fromCharCode(parseInt(char, 16) ^ key))
+		.join("");
+
 	return email;
 }
 
