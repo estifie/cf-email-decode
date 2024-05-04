@@ -8,12 +8,7 @@ The encoded text is contained in HTML elements tagged with Cloudflare'
 Examples of encoded texts are shown below.
 
 ```html
-<a
-	href="/cdn-cgi/l/email-protection"
-	class="__cf_email__"
-	data-cfemail="8be8e4e5ecf9eafff8a7abf2e4feabede4fee5efabeae5abeeeaf8ffeef9abeeececaa"
-	>[email protected]</a
->
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8be8e4e5ecf9eafff8a7abf2e4feabede4fee5efabeae5abeeeaf8ffeef9abeeececaa">[email protected]</a>
 
 <a href="/cdn-cgi/l/email-protection#43263b222e332f2603263b222e332f266d202c2e"></a>
 ```
