@@ -23,7 +23,7 @@
 	"bugs": {
 		"url": "https://github.com/axelnt/cf-email-decoder/issues"
 	},
-	"homepage": "https://github.com/axelnt/cf-email-decoder#readme",
+	"homepage": "https://github.com/axelnt/cf-email-decoder",
 	"devDependencies": {
 		"jest": "*"
 	}
