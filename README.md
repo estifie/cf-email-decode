@@ -13,6 +13,18 @@ Examples of encoded texts are shown below.
 <a href="/cdn-cgi/l/email-protection#43263b222e332f2603263b222e332f266d202c2e"></a>
 ```
 
+## Installation
+
+To install the module, run the following command:
+
+```bash
+npm install cf-email-decoder
+```
+or
+```bash
+yarn add cf-email-decoder
+```
+
 ## Usage
 
 To decode an encoded email address:
