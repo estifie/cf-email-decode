@@ -20,7 +20,7 @@
 		"encode"
 	],
 	"author": "axelnt",
-	"license": "ISC",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/axelnt/cf-email-decoder/issues"
 	},
