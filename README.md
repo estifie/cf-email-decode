@@ -1,8 +1,8 @@
-# cf-email-decoder
+# cf-email-decode
 
 ## Description
 
-Email addresses on some websites are obfuscated by Cloudflare's Email Address Obfuscation Technique to prevent bots from scraping them while keeping them visible to humans. Any text that has been obfuscated using this method may be deobfuscated and returned to a human-readable format with the use of the `cf-email-decoder` module.
+Email addresses on some websites are obfuscated by Cloudflare's Email Address Obfuscation Technique to prevent bots from scraping them while keeping them visible to humans. Any text that has been obfuscated using this method may be deobfuscated and returned to a human-readable format with the use of the `cf-email-decode` module.
 
 The encoded text is contained in HTML elements tagged with Cloudflare's email obfuscation attributes.
 Examples of encoded texts are shown below.
@@ -18,11 +18,11 @@ Examples of encoded texts are shown below.
 To install the module, run the following command:
 
 ```bash
-npm install cf-email-decoder
+npm install cf-email-decode
 ```
 or
 ```bash
-yarn add cf-email-decoder
+yarn add cf-email-decode
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ yarn add cf-email-decoder
 To decode an encoded email address:
 
 ```javascript
-const { decode } = require("cf-email-decoder");
+const { decode } = require("cf-email-decode");
 
 const decodedEmail = decode("43263b222e332f2603263b222e332f266d202c2e");
 console.log(decodedEmail);
@@ -39,7 +39,7 @@ console.log(decodedEmail);
 To encode an email address:
 
 ```javascript
-const { encode } = require("cf-email-decoder");
+const { encode } = require("cf-email-decode");
 
 const encodedEmail = encode("email@example.com");
 console.log(encodedEmail);
