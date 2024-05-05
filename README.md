@@ -1,4 +1,4 @@
-# cf-email-reader
+# cf-email-decoder
 
 ## Description
 
