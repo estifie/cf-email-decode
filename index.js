@@ -30,7 +30,7 @@ function extractKey(encodedString) {
 }
 
 function generateKey() {
-	const key = Math.floor(Math.random() * 256) + 1;
+	const key = Math.floor(Math.random() * 256);
 	return [key, hexEncode(key)];
 }
 
